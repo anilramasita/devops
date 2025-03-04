@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        #cc1,#cc2,#cc3,#cc4,#cc5,#cc6 {
+    color: black;
+    font-size: 20px;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+
+.head {
+    color: #183b56;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.para {
+    color: #616c7c;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.card-1 {
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.hh1 {
+    font-size: 20px;
+    color: #1f2933;
+    font-weight: 500;
+}
+
+.pp1 {
+    color: #7b8794;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+.headP {
+    color: #183b56;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    height: 50vh;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.ff {
+    color: white;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.aa {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.ab{
+    border-radius: 30px;
+    height: 45px;
+    width: 130px;
+    color: #ff9f00;
+    font-weight: 500;
+    background-color: white;
+    border-width: 0px;
+    border-style: solid;
+}
+
+
+.vv {
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    color: #323f4b;
+    font-weight: 500;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #323f4b;
+}
+
+.card2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    height: 50vh;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.gg {
+    color: #ff9f00;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+}
+
+
+
+.background-container {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+
+}
+
+.headO {
+    font-size: 33px;
+    color: #ad2167;
+    font-weight: 500;
+    font-family: Bree Serif;
+    padding-top: 5px;
+}
+
+.paraO {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.h12 {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.main-heading {
+    color: #183b56;
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.card1-heading1 {
+    color: #959ead;
+    font-size: 17px;
+}
+
+.card1-heading2 {
+    color: #183b56;
+    font-size: 27px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.card1-para {
+    color: #959ead;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.anchor-heading {
+    color: #ff9f00;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-headingE {
+    color: #183b56;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+
+.card-11 {
+    border-radius: 16px;
+}
+
+.card-11-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.pic {
+    border-radius: 20px;
+}
+
+.pic-heading {
+    color: #1f2933;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.anchor-headingE {
+    color: #ff9f00;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Roboto;
+    padding-left: 5px;
+}
+
+
+.card-2 {
+    border-radius: 16px;
+}
+
+
+.pic-1 {
+    width: 100%;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 38px;
+    border-bottom-left-radius: 30px;
+}
+
+.bg-container {
+    background-color: #f5f7fa;
+
+}
+
+
+.heading {
+    color: #183b56;
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+.but {
+    background-color: transparent;
+    border-width: 2.5px;
+    border-color: #ff9f00;
+    border-style: solid;
+    color: #ff9f00;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bg-containerF {
+    background-color: #0d2436;
+
+}
+
+
+.icon-container {
+    background-color: #152c3e;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+.paraF {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+
+.headF {
+    font-family: Roboto;
+    color: #5a7184;
+    font-size: 22px;
+    font-weight: 600;
+}
+.aboutus {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+}
+.line {
+    width: 90%;
+    border: solid 1px;
+    color: #5a7184;
+}
+
+
+.cop {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+.to-arr{
+    height:100px;
+    width:20px;
+}
+    </style>
+
+</head>
+
+<body>
+    <div id="sectionFirst">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <a class="navbar-brand" href="#"><img src="data:image/png;base64,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" height="50px" />E-Buddy</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" id="cc1" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" id="cc2" href="#sectionSecond">Services</a>
+                            <a class="nav-link" id="cc3" href="#sectionThree">Products</a>
+                            <a class="nav-link" id="cc4" href="#sectionFour">Special Offers</a>
+                            <a class="nav-link" id="cc5" href="#sectionFive">Trending Blogs</a>
+                            <a class="nav-link" id="cc6" href="#sectionSix">Explore Deals and Offers</a>
+                            
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="cc">
+                    <div id="carouselExampleIndicators" class="carousel slide cc" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-1-sm-img.png" class=" w-100 d-md-none h-100" alt="...">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-1-img.png" class="w-100 d-none d-md-inline h-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-2-sm-img.png" class=" w-100 d-md-none h-100" alt="...">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-2-img.png" class=" w-100 d-none d-md-inline h-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-3-sm-img.png" class=" w-100 d-md-none h-100" alt="...">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-3-img.png" class=" w-100 d-none d-md-inline h-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="sectionSecond">
+    <div class="shadow-sm pb-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-4">
+                    <h1 class="head">Our Services</h1>
+                    <p class="para">Most online stores offer lower prices.Online shopping makes prices comparision simpler and quicker.it is very convenient to shop from where you are located.it saves you the cost ofdriving to stores,as well as parking fees.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-1  shadow text-center p-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-delivery-img.png" class="w-25" />
+                        <h1 class="hh1">Fast and Free Delivery</h1>
+                        <p class="pp1">Fast,free and convenient delivery choices on millions of terms.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-1 shadow text-center p-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-money-back-img.png" class="w-25" />
+                        <h1 class="hh1">100% Money back guarantee</h1>
+                        <p class="pp1">This is probably the most popular guarantee in the world.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-1  shadow text-center p-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-24-by-7-support-img.png" class="w-25" />
+                        <h1 class="hh1">Online Support 24/7</h1>
+                        <p class="pp1">Our Online Support will provide you with many useful functions,valuable information,tips.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sectionThree">
+    <div class="dd p-3">
+        <div class='container'>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="headP">Our Products</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card1 pl-4 pb-4 d-flex flex-column justify-content-end">
+                        <h1 class="ff">Smart<br />Headphones</h1>
+                        <p class="aa">Explore vast selection of Headphones....</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="ab" data-toggle="modal" data-target="#exampleModal">
+                            View Details
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Smart Headphones</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Content</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="vv" data-dismiss="modal">Buy Now</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card2 pl-4 pb-4 d-flex flex-column justify-content-end">
+                        <h1 class="ff">Laptops</h1>
+                        <p class="aa">Explore vast selection of Laptops........</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="ab" data-toggle="modal" data-target="#exampleModal">
+                            View Details
+                        </button>
+
+                        <!-- Modal1 -->
+                        <div class="modal fade1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="exampleModalLabel1">Different Laptops</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Content</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="vv" data-dismiss="modal">Buy Now</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 text-right">
+                    <a href="" class="gg">See All Offers
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sectionFour">
+    <div class="background-container pb-5 pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 order-1 col-md-2 order-md-2">
+                    <div class="pl-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-special-img.png" class="w-100" />
+                    </div>
+                </div>
+                <div class="col-12 order-2 col-md-5 order-md-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-appliances-img.png" class="w-100" />
+                </div>
+                <div class="col-12 order-3  col-md-5 order-md-1">
+                    <h1 class="headO">BEST NEW YEAR SPECIAL OFFERS</h1>
+                    <p class="paraO">Best time to buy.Save upto<span class="h12"> 70%cash</span></p>
+                    <div class="pf pl-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-credit-card-img.png" class="w-75" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="sectionFive">
+    <div class="pt-5 pl-3 pb-5 shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="main-heading">Trending Blogs</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="shadow mt-4 ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-1-img.png" class="w-100" />
+                        <div class="card1-details pl-3 pb-3 pt-3">
+                            <h1 class="card1-heading1">Fountain Pen</h1>
+                            <h1 class="card1-heading2">Guide to Fountain Pen Nibs</h1>
+                            <p class="card1-para">If you're having trouble with a <br />fountain pen whether it's<br />scratchy,too dry,or too wet...</p>
+                            <a href="" class="anchor-heading">
+                                READ MORE
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card-1 shadow mt-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-2-img.png" class="w-100" />
+                        <div class="card1-details pl-3 pb-3 pt-3">
+                            <h1 class="card1-heading1">Productivity</h1>
+                            <h1 class="card1-heading2">How to Craft a Better Todo List</h1>
+                            <p class="card1-para"> A well-crafted Todo list acts as a<br />guiding light for your day.it helps<br />you overcome...</p>
+                            <a href="" class="anchor-heading">
+                                READ MORE
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="sectionSix">
+    <div class="bg-container pt-5  pl-3 shadow-sm pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="main-headingE">Explore Deals & Offers</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-11 shadow pt-3 pl-3 pb-4 mb-3">
+                        <h1 class="card-11-heading">Up to 80% Off | Electronics & Gadgets</h1>
+                        <div class="card-details d-flex flex-row pt-2 text-center">
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-mamba-watch-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">Smart Watch</h1>
+                            </div>
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-camera-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">Camera</h1>
+                            </div>
+                        </div>
+                        <div class="card-details d-flex flex-row pt-2 text-center">
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-sport-and-fitness-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">Sports & Fitness</h1>
+                            </div>
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-ear-phones-pink-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">Earphones</h1>
+                            </div>
+                        </div>
+                        <a href="" class="anchor-headingE">
+                            See All Deals
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                            </svg>
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-2 shadow pt-3 pl-3 pb-4 mb-3">
+                        <h1 class="card-11-heading">Festival Offers TVs & appliances</h1>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tv-img.png" class="pic-1" />
+                        <a href="" class="anchor-headingE">
+                            See All Deals
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-11 shadow pt-3 pl-3 pb-4 pr-3 mb-3">
+                        <h1 class="card-11-heading">Under Rs 4000 | Friendly Accessories</h1>
+                        <div class="card-details d-flex flex-row pt-2 text-center">
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tablet-device-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">Tablet</h1>
+                            </div>
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-joy-stick-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">PlayStation</h1>
+                            </div>
+                        </div>
+                        <div class="card-details d-flex flex-row pt-2 text-center">
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-speakers-big-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">Speakers</h1>
+                            </div>
+                            <div class="card-inner-details">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-vr-set-img.png" class="w-75 pic" />
+                                <h1 class="pic-heading pl-3 pt-2">Virtual Reality Set</h1>
+                            </div>
+                        </div>
+                        <a href="" class="anchor-headingE">
+                            See All Deals
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                            </svg>
+                        </a>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sectionSeven">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-container text-center pl-3 pt-5 pb-5 pr-3">
+                    <h1 class="heading">Let us Join Together</h1>
+                    <div>
+                        <button class="but pl-2 pr-2 mt-2">CONTACT US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sectionEight">
+    <div class="bg-containerF pb-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <img src="data:image/png;base64,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" class="w-50 pt-4 to-arr" />
+                    </div>
+                    <div class="d-flex flex-row justify-content-center pt-3 pl-2">
+                        <div class="icon-container mr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#5a7184" class="bi bi-google icon" viewBox="0 0 16 16">
+                                <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
+                            </svg>
+                        </div>
+                        <div class="icon-container mr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#5a7184" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                            </svg>
+                        </div>
+                        <div class="icon-container mr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#5a7184" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </div>
+                        <div class="icon-container mr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#5a7184" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="paraF text-center">Guntur, Andhra Pradesh, India.</p>
+                </div>
+                <div class="col-6 col-md-6 pt-md-5 col-lg-3">
+                    <h1 class="headF">Get to Know us</h1>
+                    <p class="aboutus">About us</p>
+                    <p class="aboutus">Career</p>
+                    <p class="aboutus">Press Releases</p>
+                    <p class="aboutus">Gift a smile</p>
+                </div>
+                <div class="col-6 col-md-6 pt-2 pt-md-5 col-lg-3">
+                    <h1 class="headF">Contact with us</h1>
+                    <p class="aboutus">Facebook</p>
+                    <p class="aboutus">Twitter</p>
+                    <p class="aboutus">Instagram</p>
+
+                </div>
+
+                <div class="col-6 col-md-6 pt-2 pt-md-5 col-lg-3">
+                    <h1 class="headF">Let Us Help You</h1>
+                    <p class="aboutus">100% Purchase</p>
+                    <p class="aboutus">Protection</p>
+                    <p class="aboutus">Your Account</p>
+                    <p class="aboutus">Return Centre</p>
+                    <p class="aboutus">Help</p>
+                </div>
+                <hr class="line" />
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5a7184" class="bi bi-c-circle" viewBox="0 0 16 16">
+                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
+                        </svg>
+                        <p class="cop">2020 by Abhinesh.Created with Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>

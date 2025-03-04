@@ -1,0 +1,306 @@
+#cc1,#cc2,#cc3,#cc4,#cc5,#cc6 {
+    color: black;
+    font-size: 20px;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+
+.head {
+    color: #183b56;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.para {
+    color: #616c7c;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.card-1 {
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.hh1 {
+    font-size: 20px;
+    color: #1f2933;
+    font-weight: 500;
+}
+
+.pp1 {
+    color: #7b8794;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+.headP {
+    color: #183b56;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    height: 50vh;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.ff {
+    color: white;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.aa {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.ab{
+    border-radius: 30px;
+    height: 45px;
+    width: 130px;
+    color: #ff9f00;
+    font-weight: 500;
+    background-color: white;
+    border-width: 0px;
+    border-style: solid;
+}
+
+
+.vv {
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    color: #323f4b;
+    font-weight: 500;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #323f4b;
+}
+
+.card2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    height: 50vh;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.gg {
+    color: #ff9f00;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+}
+
+
+
+.background-container {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+
+}
+
+.headO {
+    font-size: 33px;
+    color: #ad2167;
+    font-weight: 500;
+    font-family: Bree Serif;
+    padding-top: 5px;
+}
+
+.paraO {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.h12 {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.main-heading {
+    color: #183b56;
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.card1-heading1 {
+    color: #959ead;
+    font-size: 17px;
+}
+
+.card1-heading2 {
+    color: #183b56;
+    font-size: 27px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.card1-para {
+    color: #959ead;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.anchor-heading {
+    color: #ff9f00;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-headingE {
+    color: #183b56;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+
+.card-11 {
+    border-radius: 16px;
+}
+
+.card-11-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.pic {
+    border-radius: 20px;
+}
+
+.pic-heading {
+    color: #1f2933;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.anchor-headingE {
+    color: #ff9f00;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Roboto;
+    padding-left: 5px;
+}
+
+
+.card-2 {
+    border-radius: 16px;
+}
+
+
+.pic-1 {
+    width: 100%;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 38px;
+    border-bottom-left-radius: 30px;
+}
+
+.bg-container {
+    background-color: #f5f7fa;
+
+}
+
+
+.heading {
+    color: #183b56;
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+.but {
+    background-color: transparent;
+    border-width: 2.5px;
+    border-color: #ff9f00;
+    border-style: solid;
+    color: #ff9f00;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bg-containerF {
+    background-color: #0d2436;
+
+}
+
+
+.icon-container {
+    background-color: #152c3e;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+.paraF {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+
+.headF {
+    font-family: Roboto;
+    color: #5a7184;
+    font-size: 22px;
+    font-weight: 600;
+}
+.aboutus {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+}
+.line {
+    width: 90%;
+    border: solid 1px;
+    color: #5a7184;
+}
+
+
+.cop {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+.to-arr{
+    height:100px;
+    width:20px;
+}
