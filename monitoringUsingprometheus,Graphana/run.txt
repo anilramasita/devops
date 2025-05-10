@@ -1,0 +1,49 @@
+minikube start
+
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+
+helm repo update
+
+helm install prometheus prometheus-community/Prometheus
+
+kubectl get pods
+
+kubectl expose service prometheus-server --type=NodePort --target-port=9090 --name=prometheus-server-ext
+
+kubectl get svc
+
+minikube ip
+
+minikube service prometheus-server-ext
+
+
+helm repo add grafana https://grafana.github.io/helm-charts
+
+heml repo update
+
+helm install grafana grafana/grafana
+
+kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+
+kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | % { [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($_)) }
+
+kubectl expose service grafana --type=NodePort --target-port=3000 --name=grafana-ext
+
+kubectl get svc
+
+minikube ip
+
+minikube service grafana-ext
+
+
+kubectl expose service prometheus-kube-state-metrics --type=NodePort --target-port=8080 --name=prometheus-kube-state-metrics-ext
+
+kubectl get svc
+
+minikube service prometheus-kube-state-metrics-ext
+
+minikube ip
+
+kube_deployment_status_replicas{namespace="default",deployment="prometheus-server"}
+
+minikube stop
